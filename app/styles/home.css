@@ -1,0 +1,38 @@
+body{
+    background-color: #ECCA9C;
+}
+.hero-banner{
+    position: relative;
+    overflow: hidden;
+    background-color: #E8EFCF;
+    height: 100vh;  
+}
+.hero-banner-motorcycle{
+    max-width: 80% ;
+    
+
+}
+.terrain{
+    position: absolute;
+    left: 0;
+    background-color: #ECCA9C;
+    width: 100%;
+    height: 100%;
+}
+.service-content{
+    gap: 10px;
+    height: 220px;
+}
+@media screen and (max-width: 800px) {
+    .hero-banner-motorcycle{
+        /* top: 0; */
+        bottom: 0;
+        width: 1000px;
+        position: absolute;
+        left: -150%;
+        max-width: unset ;
+    }
+    .terrain{
+        display: none;
+    }
+  }
