@@ -1,38 +1,74 @@
 body{
-    background-color: #ECCA9C;
+    background-color: #FDFFFA;
 }
-.hero-banner{
-    position: relative;
-    overflow: hidden;
-    background-color: #E8EFCF;
-    height: 100vh;  
+.header{
+    height: 100vh;
 }
-.hero-banner-motorcycle{
-    max-width: 80% ;
-    
+.gambar-banner{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.unggulan-gambar{
+    position: absolute;
+    padding: 10px 80px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(100px);
+    color: #24909A;
+    font-weight: bold;
+    z-index: 1;
 
 }
-.terrain{
-    position: absolute;
-    left: 0;
-    background-color: #ECCA9C;
-    width: 100%;
-    height: 100%;
+.unggulan-gambar:first-child{
+    top: 0px;
 }
-.service-content{
-    gap: 10px;
-    height: 220px;
+.unggulan-gambar:nth-child(2){
+    right: -80px;
+    top: 50%;
 }
+.unggulan-gambar:nth-child(3){
+    bottom: 0px;
+    left: 0px;
+}
+.button-outline-primary{
+    background-color: #FDFFFA;
+    border: 2px solid #24909A;
+    color: #24909A;
+}
+.button-outline-primary:hover{
+    color: #FDFFFA;
+    background-color: #24909A;
+}
+.lingkaran-dot{
+    border-radius: 50%;
+   margin: auto;
+    border: 5px dashed #24909A ;
+    height: 520px;
+    width: 520px;
+}
+
 @media screen and (max-width: 800px) {
-    .hero-banner-motorcycle{
-        /* top: 0; */
-        bottom: 0;
-        width: 1000px;
-        position: absolute;
-        left: -150%;
-        max-width: unset ;
+   
+    .unggulan-gambar:first-child{
+        top: 10%;
     }
-    .terrain{
-        display: none;
+    .unggulan-gambar:nth-child(2){
+        right: 50%;
+        top: 0;
+        transform: translateX(50%)
     }
-  }
+    .unggulan-gambar:nth-child(3){
+        right: 0;
+        top: 10%;
+        left: auto;
+        bottom: auto;
+    }
+    .unggulan-gambar{
+        padding: 3px 40px;
+        font-size: 14px;
+    
+    }
+}
