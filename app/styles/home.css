@@ -1,7 +1,7 @@
 body{
     background-color: #FDFFFA;
 }
-.header{
+.section{
     height: 100vh;
 }
 .gambar-banner{
@@ -9,6 +9,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 1;
     transform: translate(-50%, -50%);
 }
 .unggulan-gambar{
@@ -19,8 +20,7 @@ body{
     backdrop-filter: blur(100px);
     color: #24909A;
     font-weight: bold;
-    z-index: 1;
-
+    z-index: 2;
 }
 .unggulan-gambar:first-child{
     top: 0px;
@@ -42,33 +42,60 @@ body{
     color: #FDFFFA;
     background-color: #24909A;
 }
-.lingkaran-dot{
+.lingkaran-dot {
     border-radius: 50%;
-   margin: auto;
+    margin: auto;
     border: 5px dashed #24909A ;
     height: 520px;
     width: 520px;
+    animation: berputar 250s linear infinite; 
 }
 
+
+.gambar-layanan{
+    width: 75%;
+    border-radius: 5px;
+    border: #FDFFFA solid 14px;
+}
+.card{
+    width: 18rem;
+}
+
+@keyframes berputar {
+    0%   {transform: rotate(0deg);} 
+    100% {transform: rotate(360deg);} 
+}
 @media screen and (max-width: 800px) {
-   
-    .unggulan-gambar:first-child{
-        top: 10%;
+    .section{
+        min-height: 100vh;
+        height: auto;
     }
-    .unggulan-gambar:nth-child(2){
-        right: 50%;
-        top: 0;
-        transform: translateX(50%)
+    .gambar-banner{
+        width: 250px;
     }
-    .unggulan-gambar:nth-child(3){
-        right: 0;
-        top: 10%;
-        left: auto;
-        bottom: auto;
+    .lingkaran-dot{
+        border: 3px dashed #24909A ;
+        height: 270px;
+        width: 270px;
     }
-    .unggulan-gambar{
-        padding: 3px 40px;
-        font-size: 14px;
+    .unggulan-gambar,.text-banner p{
+        display: none;
     
+    }
+    .text-banner{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .gambar-layanan{
+        width: 100%;
+        border-radius: 3px;
+        border: #FDFFFA solid 10px;
+    }
+    .deskripsi-section{
+        margin-top: 25px;
+    }
+    .card{
+        width: 100%;
     }
 }
