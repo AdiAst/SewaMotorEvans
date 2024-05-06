@@ -61,6 +61,29 @@ body{
     width: 18rem;
 }
 
+div.scroll-container {
+    white-space: nowrap;
+    animation: scroll 100s linear infinite; 
+}
+.gambar-testimoni .scroll-container:nth-child(2) {
+    transform: translateX(-100%);
+    animation: reverse_scroll 100s linear infinite;
+}
+div.scroll-container img {
+  padding: 10px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-100%); }
+    100% { transform: translateX(0); } 
+  }
+@keyframes reverse_scroll {
+    0% { transform: translateX(-100%); }
+    50% { transform: translateX(0); }
+    100% { transform: translateX(-100%); } 
+  }
+
 @keyframes berputar {
     0%   {transform: rotate(0deg);} 
     100% {transform: rotate(360deg);} 
@@ -97,5 +120,8 @@ body{
     }
     .card{
         width: 100%;
+    }
+    .section:nth-child(3){
+        margin-top: 100px;
     }
 }
