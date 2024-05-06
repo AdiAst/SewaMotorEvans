@@ -98,6 +98,9 @@ div.scroll-container img {
     font-size: 22px;
     color: #FDFFFA;
 }
+.produk a{
+    font-size: 12px;
+}
 
 @keyframes scroll {
     0% { transform: translateX(0); }
