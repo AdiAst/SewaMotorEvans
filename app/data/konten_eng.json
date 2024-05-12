@@ -1,0 +1,32 @@
+{
+    "tagline":"Save Time, Save Money, Trustworthy",
+    "sub_text":"Let's explore the world with Evan Motorbike Rental. Enjoy the convenience of renting a motorbike with our reliable, fast, and trustworthy service.",
+    "more_btn": "SEE ALL",
+    "teks_unggulan":["100+ Customers","Wide Range of Motorbike Variants","Fast, Economical, Trustworthy"],
+    "h2_layanan":"Our Services",
+    "par_layanan":"With pride, we present the best motorbike rental service in Bali. Built on the trust of more than 100 loyal customers, we offer a wide selection of motorbikes to meet your travel needs. Enjoy the convenience and practicality with free delivery service to Kuta, Legian, and Ngurah Rai International Airport areas. Each booking comes with additional facilities such as 2 helmets and raincoats, so you can explore the Island of the Gods safely and comfortably. Guided by our commitment to customer satisfaction, we strive to provide a rental experience that is economical, fast, and trustworthy every time you choose us as your travel partner in Bali.",
+    "layanan_unggulan":[
+        {
+            "h5":"100+",
+            "h6":"Customers"
+        },
+        {
+            "h5":"Wide Range",
+            "h6":"of Motorbike Variants"
+        },
+        {
+            "h5":"Free Delivery",
+            "h6":"Kuta, Legian, Airport Ngurah Rai"
+        },
+        {
+            "h5":"Facilities",
+            "h6":"2 Helmets, Raincoats"
+        }
+    ],
+    "h2_testimoni":"Testimonials",
+    "subjudul_testimoni":"Hear Direct Testimonials from Them",
+    "footer":"Feel free to contact us if you have any questions or special requests.",
+    "menu_daftar_kendaraan":"Vehicle List",
+    "rental_btn":"Rent Now",
+    "bahasa":"Language"
+}

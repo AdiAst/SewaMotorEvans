@@ -1,0 +1,33 @@
+{
+    "tagline":"Hemat Cepat Terpercaya",
+    "sub_text":"Mari jelajahi dunia dengan Sewa Motor Evan. Nikmati kemudahan dalam menyewa motor dengan layanan hemat, cepat, dan terpercaya.",
+    "more_btn": "LIHAT SEMUA",
+    "teks_unggulan":["100+ Pelanggan","Banyak Variasi Motor","Cepat Hemat Terpercaya"],
+    "h2_layanan":"Layanan Kami",
+    "par_layanan":"Dengan bangga kami menyajikan layanan sewa motor terbaik di Bali. Dibangun atas kepercayaan dari lebih dari 100 pelanggan setia, kami menawarkan beragam pilihan motor untuk memenuhi kebutuhan perjalanan Anda. Nikmati kenyamanan dan kepraktisan dengan layanan pengantaran gratis ke area Kuta, Legian, dan Bandara Internasional Ngurah Rai. Setiap pemesanan dilengkapi dengan fasilitas tambahan berupa 2 helm dan jas hujan, sehingga Anda dapat menjelajahi pulau Dewata dengan lebih aman dan nyaman. Dipandu oleh komitmen kami terhadap kepuasan pelanggan, kami berusaha memberikan pengalaman sewa motor yang hemat, cepat, dan terpercaya setiap kali Anda memilih kami sebagai mitra perjalanan Anda di Bali.",
+    "layanan_unggulan":[
+        {
+            "h5":"100+",
+            "h6":"Pelanggan"
+        },
+        {
+            "h5":"Banyak",
+            "h6":"Variasi Motor"
+        },
+        {
+            "h5":"Free Delivery",
+            "h6":"Kuta, Legian, Airport Ngurah Rai"
+        },
+        {
+            "h5":"Fasilitas",
+            "h6":"2 Helm, Jas Hujan"
+        }
+    ],
+    "h2_testimoni":"Testimoni",
+    "subjudul_testimoni":"Lihat Testimoni Langsung dari Mereka",
+    "footer":"Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau permintaan khusus.",
+    "menu_daftar_kendaraan":"Daftar Kendaraan",
+    "retal_btn":"Rental Sekarang",
+    "bahasa":"Bahasa"
+
+}

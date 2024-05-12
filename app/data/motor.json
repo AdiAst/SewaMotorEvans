@@ -1,0 +1,83 @@
+[
+    {
+        "MID":"M01",
+        "varian":"XMAX 2022",
+        "merk":"Yamaha",
+        "harga":"100.000",
+        "gambar":[
+            "01.png"
+        ]
+    },
+    {
+        "MID":"M02",
+        "varian":"NMAX 155",
+        "merk":"Yamaha",
+        "harga":"100.000",
+        "gambar":[
+            "01.png"
+        ]
+    },
+    {
+        "MID":"M03",
+        "varian":"Scoopy 2017",
+        "merk":"Honda",
+        "harga":"100.000",
+        "gambar":[
+            "01.jpg"
+        ]
+    },
+    {
+        "MID":"M04",
+        "varian":"Genio 2019",
+        "merk":"Honda",
+        "harga":"100.000",
+        "gambar":[
+            "01.png"
+        ]
+    },
+    {
+        "MID":"M05",
+        "varian":"Scoopy 2023",
+        "merk":"Honda",
+        "harga":"100.000",
+        "gambar":[
+            "01.jpg"
+        ]
+    },
+    {
+        "MID":"M06",
+        "varian":"Vario 150",
+        "merk":"Honda",
+        "harga":"100.000",
+        "gambar":[
+            "01.jpg"
+        ]
+    },
+    {
+        "MID":"M07",
+        "varian":"PCX AD2724",
+        "merk":"Honda",
+        "harga":"100.000",
+        "gambar":[
+            "01.jpg"
+        ]
+    },
+    {
+        "MID":"M08",
+        "varian":"Lexi 2018",
+        "merk":"Yamaha",
+        "harga":"100.000",
+        "gambar":[
+            "01.png"
+        ]
+    },
+    {
+        "MID":"M09",
+        "varian":"PCX CBU 2014",
+        "merk":"Yamaha",
+        "harga":"100.000",
+        "gambar":[
+            "01.jpg"
+        ]
+    }
+]
