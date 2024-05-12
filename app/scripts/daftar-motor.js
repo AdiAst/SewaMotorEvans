@@ -21,9 +21,8 @@ $.getJSON("app/data/motor.json", function (data) {
                         <img src="app/image/Motor/${data[i].MID}/${data[i].gambar[0]}" class="card-img-top" alt="${data[i].gambar[i]}">
                     </div>
                     <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">${data[i].merk}</h6>
-                        <h5 class="card-title">${data[i].varian} (${data[i].harga}/${localStorage.getItem('lang') === "idn" ? "hari" : "day"})</h5>
-                        
+                        <h6 class="card-subtitle mb-2 text-muted">${data[i].harga}/${localStorage.getItem('lang') === "idn" ? "hari" : "day"}</h6>
+                        <h5 class="card-title">${data[i].merk} ${data[i].varian} </h5>
                         <a href="https://wa.me/+6281338764099?text=${pesan}" class="btn button-outline-primary w-100" target="_blank">${localStorage.getItem('lang') === "idn" ? "RENTAL SEKARANG" : "RENT NOW"}</a>
                     </div>
                 </div>
